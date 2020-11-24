@@ -1,0 +1,42 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+    <meta charset="UTF-8" /> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"  
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> 
+    <title>Lazarus Static Web Page</title> 
+    </head> 
+    <body> 
+    <style> 
+        body { background: #0e1013; }  
+        h1, h2 {
+            max-width: 480px; 
+            text-align: center; 
+            margin: 60px auto; 
+            font-family: 'Courier New', Courier, monospace; 
+            color: #fff
+        }
+        h1::after { 
+            content: '|'; 
+            margin-left: 5px; 
+            opacity: 1; 
+            animation: flashes .7s infinite; 
+        }
+        @keyframes flashes { 0%, 100% { opacity:1; } 50% { opacity: 0; } } 
+    </style> 
+    
+    <h1>Lazarus Static Web Page</h1> 
+    <h2>Server Status - Online</h2> 
+    <script>  
+        function typeWriter(element) { 
+            const textArray = element.innerHTML.split('');  
+            element.innerHTML = '';
+            textArray.forEach((letter, i) => {  
+                setTimeout(() => element.innerHTML += letter, 75 * i);
+        });  
+        } 
+        typeWriter(document.querySelector('h1'));  
+        typeWriter(document.querySelector('h2'));  
+    </script>  
+    </body> 
+</html>

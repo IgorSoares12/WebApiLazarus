@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="11"/>
+    <BuildModes Active="Default"/>
+    <Units Count="3">
+      <Unit0>
+        <Filename Value="StandAlone.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <CursorPos X="33" Y="11"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="formmain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MainForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="FormMain"/>
+        <EditorIndex Value="1"/>
+        <CursorPos X="50" Y="73"/>
+        <UsageCount Value="20"/>
+        <Bookmarks Count="1">
+          <Item0 X="77" Y="82" ID="1"/>
+        </Bookmarks>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\comon\uapiroutes.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="uApiRoutes"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="10"/>
+        <CursorPos X="66" Y="14"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit2>
+    </Units>
+    <JumpHistory Count="10" HistoryIndex="9">
+      <Position1>
+        <Filename Value="formmain.pas"/>
+        <Caret Line="70" Column="75" TopLine="62"/>
+      </Position1>
+      <Position2>
+        <Filename Value="formmain.pas"/>
+        <Caret Line="44" Column="15" TopLine="33"/>
+      </Position2>
+      <Position3>
+        <Filename Value="formmain.pas"/>
+        <Caret Line="41" Column="24" TopLine="32"/>
+      </Position3>
+      <Position4>
+        <Filename Value="StandAlone.lpr"/>
+        <Caret Line="24" TopLine="11"/>
+      </Position4>
+      <Position5>
+        <Filename Value="StandAlone.lpr"/>
+        <Caret Line="11" Column="23"/>
+      </Position5>
+      <Position6>
+        <Filename Value="StandAlone.lpr"/>
+        <Caret Line="26" TopLine="10"/>
+      </Position6>
+      <Position7>
+        <Filename Value="StandAlone.lpr"/>
+        <Caret Line="20" Column="11" TopLine="12"/>
+      </Position7>
+      <Position8>
+        <Filename Value="StandAlone.lpr"/>
+        <Caret Line="30" Column="46" TopLine="20"/>
+      </Position8>
+      <Position9>
+        <Filename Value="StandAlone.lpr"/>
+        <Caret Line="31" Column="28" TopLine="22"/>
+      </Position9>
+      <Position10>
+        <Filename Value="StandAlone.lpr"/>
+        <Caret Line="34" Column="20" TopLine="22"/>
+      </Position10>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
